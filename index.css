@@ -1,0 +1,170 @@
+
+.top-container {
+    background-color:whitesmoke;
+    position: relative;
+    padding-top: 50px;
+    height: 30%vh;
+}
+.logo {
+    position:relative;
+    right: 200px;
+    top: 0px;
+    size: 1rem;
+}
+div{
+    display: block;
+}
+.title {
+    background-color:whitesmoke;
+}
+img {
+    border-radius: 50%;
+    margin-top: 20px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family:"Merriweather", serif;
+    color: #437BE0;
+    text-align:center;
+    font-weight: light;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #F4CD6D;
+    font-family:"Merriweather", serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color:#437BE0
+}
+.first-container{
+    margin: 100px 0;
+}
+p {
+    text-align: center;
+    font-family:"Merriweather", serif;
+    color:#437BE0;
+    font-weight:lighter;
+    line-height: 2;
+    width: 35%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+.container {
+    font-family: "Merriweather", serif;
+    color: #437BE0;
+    font-weight: lighter;
+    margin-left: 500px;
+    font-size: 1.5rem;
+}
+.second-container {
+    font-family: "Merriweather", serif;
+    color:#F4CD6D;
+    font-weight: bolder;
+    font-size: 4rem;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+   
+}
+.bottom-container {
+    font-family: "Merriweather", serif;
+    color: #437BE0;
+    background-color:whitesmoke;
+    position:relative;
+    padding-top: 30px;
+    height: 30%vh;
+}
+.copyright {
+    text-align:center bottom;
+}
+.footer-link {
+    color: #437BE0;
+    margin: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+/* Add this to your existing CSS file or style tag */
+.grid-container {
+    display: grid;
+    grid-template-columns:(0.5fr 1fr);
+    grid-template-rows: repeat(1, 1fr );
+    padding: 20px;
+}
+.portfolio {
+    border: 1px;
+    text-align: left;
+    padding: 10px;  
+    margin-left: 500px;
+    display: inline-flex;
+
+}
+.design {
+    display: block;
+    border: 1px;
+    text-align: left;
+    padding: 10px;  
+    margin-left: 500px;
+    
+}
+
+.project-intro {
+    display: inline-block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+.portfolio-img {
+    margin-left: 0px;
+    overflow-clip-margin: content-box;
+    border-radius: 0%;
+}
+.btn {
+    background-color: #437BE0;
+    background-image: linear-gradient(to bottom,#437be0,#437be0);
+    font-family: "Montserrat", sans-serif;
+    color: #ffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;   
+}
+a {
+    margin: 10px 20px;
+}
+hr {
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.center {
+    text-align: center;
+}
+.contact-me{
+    margin-top: 20px;
+    text-align: center;
+    
+}
